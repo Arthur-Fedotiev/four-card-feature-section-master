@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0;
+  padding: 15% 7%;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(229, 6%, 66%);
+  }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1rem;
+}
+
+/* TITLE SECTION */
+.title-section-container {
+  width: 100%;
+  margin: 0 auto 0;
+}
+
+.entry-first-line {
+  font-weight: normal;
+}
+
+.entry-second-line {
+  color: hsl(234, 12%, 34%);
+}
+
+.service-description {
+  margin: 1rem auto 4rem;
+  font-size: 1rem;
+}
+
+/* ++++++++++++++ MAIN 4 CARDS SECTION +++++++++ */
+.flex-container {
+  display: block;
+  width: 100%;
+  margin: 0 auto 0;
+}
+
+/*  SEPARATE BOXES FOR CARDS  */
+.box {
+  height: 250px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-top-width: 10px;
+  box-shadow: 0 12px 17px -2px #a3a5ae;
+  margin: 2rem;
+  padding: 5% 5%;
+  position: relative;
+  text-align: left;
+}
+
+.supervisor-box {
+  border-top-color: #45d3d3;
+}
+
+.builder-box {
+  border-top-color: #ea5353;
+}
+
+.karma-box {
+  border-top-color: #fcaf4a;
+}
+
+.calculator-box {
+  border-top-color: #549ef2;
+}
+
+.double-box-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* ++++++++++++ SKILL IMAGES +++++++++++++++ */
+.skill-icon {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+/* FOOTER */
+.footer {
+  height: 2rem;
+}
+
+.push {
+  height: 2rem;
+}
+
+.footer {
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer a {
+  color: #3E52A3;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  font-weight: bold;
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1198px) {
+  body {
+    padding: 15% 10%;
+    height: 100%;
+  }
+
+  .title-section-container {
+    width: 85%;
+    margin: 0 auto 0;
+  }
+
+  .flex-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 0;
+    position: relative;
+    padding: 0;
+  }
+
+  .double-box-container {
+    height: 250px;
+    display: flex;
+    position: absolute;
+    bottom: -230px;
+  }
+
+  .supervisor-box {
+    width: 50%;
+  }
+
+  .karma-box {
+    width: 50%;
+  }
+
+  .builder-box {
+    width: 50%;
+  }
+
+  .calculator-box {
+    width: 50%;
+  }
+
+  .push {
+    height: 20rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 5% 10%;
+  }
+
+  .title-section-container {
+    width: 65%;
+    margin: 0 auto 0;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .double-box-container {
+    width: 33.3%;
+    margin: 2rem;
+  }
+
+  .supervisor-box {
+    width: 33.3%;
+    padding: 1rem;
+  }
+
+  .karma-box {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+  }
+
+  .builder-box {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .calculator-box {
+    width: 33.3%;
+    padding: 1rem;
+  }
+}
